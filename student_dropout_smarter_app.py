@@ -17,6 +17,9 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
+import sklearn
+st.write("scikit-learn version:", sklearn.__version__)
+
 
 st.set_page_config(page_title="Student Dropout Prediction in Smarter Way", page_icon="🎓", layout="wide")
 
